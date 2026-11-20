@@ -1,6 +1,5 @@
-npm init -y && npm install whatsapp-web.js qrcode-terminal && cat << 'EOF' > settings.js
 module.exports = {
-    defaultPhoneNumber: process.env.PHONE_NUMBER || '201119815696',
+    defaultPhoneNumber: process.env.PHONE_NUMBER || '201119815662',
     ownerSignature: 'اللي بينيكك',
     reactions: {
         success: '☑️',
@@ -14,4 +13,3 @@ module.exports = {
         'الرد عندي جاهز بس خلينا في المهم 😎'
     ]
 };
-EOF

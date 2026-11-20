@@ -1,0 +1,25 @@
+{
+  "name": "whatsapp-bot-pair",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmedfota310-code/whatsapp-bot-pair.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ahmedfota310-code/whatsapp-bot-pair/issues"
+  },
+  "homepage": "https://github.com/ahmedfota310-code/whatsapp-bot-pair#readme",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.34.8"
+  }
+}

@@ -1,4 +1,3 @@
-cat << 'EOF' > index.js
 const fs = require('fs');
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const settings = require('./settings');
@@ -415,5 +414,3 @@ client.on('message', async (msg) => {
 });
 
 client.initialize();
-EOF
-                     
